@@ -15,6 +15,13 @@
 		DD97683E251055EE00BC3E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD97683C251055EE00BC3E9C /* LaunchScreen.storyboard */; };
 		DD976849251055EF00BC3E9C /* HrnXcerptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD976848251055EF00BC3E9C /* HrnXcerptsTests.swift */; };
 		DD976854251055EF00BC3E9C /* HrnXcerptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD976853251055EF00BC3E9C /* HrnXcerptsUITests.swift */; };
+		DD9768622510562C00BC3E9C /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9768612510562C00BC3E9C /* MoreView.swift */; };
+		DD9768642510567E00BC3E9C /* HornContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9768632510567E00BC3E9C /* HornContentModel.swift */; };
+		DD976868251056DC00BC3E9C /* CompositionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD976867251056DC00BC3E9C /* CompositionListView.swift */; };
+		DD97686A251056FF00BC3E9C /* CompositionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD976869251056FF00BC3E9C /* CompositionDetailView.swift */; };
+		DD97686C2510571E00BC3E9C /* RandomCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97686B2510571E00BC3E9C /* RandomCompositionView.swift */; };
+		DD97686E2510573500BC3E9C /* ComposerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97686D2510573500BC3E9C /* ComposerListView.swift */; };
+		DD9768702510574A00BC3E9C /* ComposerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97686F2510574A00BC3E9C /* ComposerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		DD97684F251055EF00BC3E9C /* HrnXcerptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HrnXcerptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD976853251055EF00BC3E9C /* HrnXcerptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HrnXcerptsUITests.swift; sourceTree = "<group>"; };
 		DD976855251055EF00BC3E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9768612510562C00BC3E9C /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		DD9768632510567E00BC3E9C /* HornContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornContentModel.swift; sourceTree = "<group>"; };
+		DD976867251056DC00BC3E9C /* CompositionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionListView.swift; sourceTree = "<group>"; };
+		DD976869251056FF00BC3E9C /* CompositionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionDetailView.swift; sourceTree = "<group>"; };
+		DD97686B2510571E00BC3E9C /* RandomCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCompositionView.swift; sourceTree = "<group>"; };
+		DD97686D2510573500BC3E9C /* ComposerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerListView.swift; sourceTree = "<group>"; };
+		DD97686F2510574A00BC3E9C /* ComposerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +113,16 @@
 		DD976830251055EA00BC3E9C /* HrnXcerpts */ = {
 			isa = PBXGroup;
 			children = (
-				DD976831251055EA00BC3E9C /* AppDelegate.swift */,
-				DD976833251055EA00BC3E9C /* SceneDelegate.swift */,
+				DD9768632510567E00BC3E9C /* HornContentModel.swift */,
 				DD976835251055EA00BC3E9C /* ContentView.swift */,
+				DD9768612510562C00BC3E9C /* MoreView.swift */,
+				DD976865251056BB00BC3E9C /* Composition Views */,
+				DD976866251056C800BC3E9C /* Composer Views */,
 				DD976837251055EE00BC3E9C /* Assets.xcassets */,
 				DD97683C251055EE00BC3E9C /* LaunchScreen.storyboard */,
 				DD97683F251055EF00BC3E9C /* Info.plist */,
+				DD976831251055EA00BC3E9C /* AppDelegate.swift */,
+				DD976833251055EA00BC3E9C /* SceneDelegate.swift */,
 				DD976839251055EE00BC3E9C /* Preview Content */,
 			);
 			path = HrnXcerpts;
@@ -134,6 +152,25 @@
 				DD976855251055EF00BC3E9C /* Info.plist */,
 			);
 			path = HrnXcerptsUITests;
+			sourceTree = "<group>";
+		};
+		DD976865251056BB00BC3E9C /* Composition Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD976867251056DC00BC3E9C /* CompositionListView.swift */,
+				DD976869251056FF00BC3E9C /* CompositionDetailView.swift */,
+				DD97686B2510571E00BC3E9C /* RandomCompositionView.swift */,
+			);
+			path = "Composition Views";
+			sourceTree = "<group>";
+		};
+		DD976866251056C800BC3E9C /* Composer Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD97686D2510573500BC3E9C /* ComposerListView.swift */,
+				DD97686F2510574A00BC3E9C /* ComposerDetailView.swift */,
+			);
+			path = "Composer Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Alexander Burdiss";
 				TargetAttributes = {
 					DD97682D251055EA00BC3E9C = {
@@ -268,7 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD976832251055EA00BC3E9C /* AppDelegate.swift in Sources */,
+				DD97686E2510573500BC3E9C /* ComposerListView.swift in Sources */,
+				DD976868251056DC00BC3E9C /* CompositionListView.swift in Sources */,
+				DD97686A251056FF00BC3E9C /* CompositionDetailView.swift in Sources */,
+				DD9768622510562C00BC3E9C /* MoreView.swift in Sources */,
+				DD9768642510567E00BC3E9C /* HornContentModel.swift in Sources */,
 				DD976834251055EA00BC3E9C /* SceneDelegate.swift in Sources */,
+				DD9768702510574A00BC3E9C /* ComposerDetailView.swift in Sources */,
+				DD97686C2510571E00BC3E9C /* RandomCompositionView.swift in Sources */,
 				DD976836251055EA00BC3E9C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +386,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,6 +447,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -420,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
