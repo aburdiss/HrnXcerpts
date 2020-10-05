@@ -61,15 +61,55 @@ let bachBrandenburgConcerto = Composition(id: 0, composer: "Johann Sebastian Bac
     ["", ""]
 ])
 
-let pictures = [["F Horn 1", ""], ["F Horn 2", ""]]
+let bachMassB = Composition(id: 1, composer: "Johann Sebastian Bach", composerLast: "Bach", name: "Mass in B minor", date: "1749", era: "Baroque", genre: "Mass", excerpts: [
+    Excerpt(id: 7, description: "Excerpt 1", measures: "Mov. X, mm. 1 - 15", pictures: [["D Horn", "1012"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethovenFidelio = Composition(id: 2, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Fidelio", date: "1805", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 8, description: "Excerpt 1", measures: "Overture, mm. 1 - 16", pictures: [["E Horn 1", "1013"], ["E Horn 2", "1014"], ["E Horn 3", "1015"], ["E Horn 4", "1016"]]),
+    Excerpt(id: 9, description: "Excerpt 2", measures: "Overture, mm. 45 - 55", pictures: [["E Horn 1", "1017"], ["E Horn 2", "1018"], ["E Horn 3", "1019"], ["E Horn 4", "1020"]]),
+    Excerpt(id: 10, description: "Excerpt 3", measures: "Overture, mm. 136 - 151", pictures: [["E Horn 1", "1021"], ["E Horn 2", "1022"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven2 = Composition(id: 3, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 2", date: "1802", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 11, description: "Excerpt 1", measures: "Mov. II, mm. 85 - 96", pictures: [["E Horn 1", "1023"], ["E Horn 2", "1024"]]),
+    Excerpt(id: 12, description: "Excerpt 2", measures: "Mov. II, mm. 249 - 260", pictures: [["E Horn 1", "1025"], ["E Horn 2", "1026"]]),
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven3 = Composition(id: 4, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 3", date: "1803", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 13, description: "Excerpt 1", measures: "Mov. I, 4 mm. before [M] - 19 mm. after [M]", pictures: [["E♭ Horn 1", "1027"], ["E♭ Horn 2", "1028"], ["E♭ Horn 3", "1029"]]),
+    Excerpt(id: 14, description: "Excerpt 2", measures: "Mov. I, 16 mm. before [U] – 9 mm. after [V]", pictures: [["E♭ Horn 1", "1030"], ["E♭ Horn 2", "1031"], ["E♭ Horn 3", "1032"]]),
+    Excerpt(id: 15, description: "Excerpt 3", measures: "Mov. III, mm. 169 - 205", pictures: [["E♭ Horn 1", "1033"], ["E♭ Horn 2", "1034"], ["E♭ Horn 3", "1035"]]),
+    Excerpt(id: 16, description: "Excerpt 4", measures: "Mov. IV, 9 mm. before [F] – 7 mm. after [G]", pictures: [["E♭ Horn 1", "1036"], ["E♭ Horn 2", "1037"], ["E♭ Horn 3", "1038"]]),
+    Excerpt(id: 17, description: "Excerpt 5", measures: "Mov. IV, mm. 433 - End", pictures: [["E♭ Horn 1", "1039"], ["E♭ Horn 2", "1040"], ["E♭ Horn 3", "1041"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven6 = Composition(id: 5, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 6", date: "1808", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 18, description: "Excerpt 1", measures: "Mov. III, 49 mm. after [A] - 78 mm. after [A] ", pictures: [["F Horn 1", "1042"], ["F Horn 2", "1043"]]),
+    Excerpt(id: 19, description: "Excerpt 2", measures: "Mov. V, mm. 1 - 10", pictures: [["F Horn 1", "1044"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let pictures1 = [["F Horn 1", ""], ["F Horn 2", ""]]
+let pictures2 = [["E Horn 1", ""], ["E Horn 2", ""], ["E Horn 3", ""], ["E Horn 4", ""]]
+let flat = "♭"
 
 /*
- Bach – Brandenburg Concerto No. 1
- Bach – Mass in B minor
- Beethoven – Fidelio Overture
- Beethoven – Symphony No. 2
- Beethoven – Symphony No. 3
- Beethoven – Symphony No. 6
+x Bach – Brandenburg Concerto No. 1
+x Bach – Mass in B minor
+x Beethoven – Fidelio Overture
+x Beethoven – Symphony No. 2
+x Beethoven – Symphony No. 3
+x Beethoven – Symphony No. 6
  Beethoven – Symphony No. 7
  Beethoven – Symphony No. 8
  Beethoven – Symphony No. 9
@@ -122,9 +162,11 @@ let pictures = [["F Horn 1", ""], ["F Horn 2", ""]]
 //MARK: Composers
 
 let bach = Composer(id: 0, name: "Johann Sebastian Bach", ipa: "joˈhan zeˈbastjan bɑx", image: 2000, country: "Germany", dates: "1685-1750", bio: "Johann Sebastian Bach was a German Baroque composer and musician. He is most well known for is keyboard works, and works for voice and orchestra. Bach was a master of counterpoint and harmonic organization and his influences in these fields continue to affect composers to this day.", excerpts: [
+    bachBrandenburgConcerto, bachMassB
 ])
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2001, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
+    beethovenFidelio, beethoven2, beethoven3, beethoven6
 ])
 
 let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2002, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [
@@ -195,7 +237,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6
     ]
     
     /**
