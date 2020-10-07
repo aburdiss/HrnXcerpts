@@ -99,8 +99,31 @@ let beethoven6 = Composition(id: 5, composer: "Ludwig van Beethoven", composerLa
     ["", ""]
 ])
 
-let pictures1 = [["F Horn 1", ""], ["F Horn 2", ""]]
-let pictures2 = [["E Horn 1", ""], ["E Horn 2", ""], ["E Horn 3", ""], ["E Horn 4", ""]]
+let beethoven7 = Composition(id: 6, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 7", date: "1812", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 20, description: "Excerpt 1", measures: "Mov. I, 25 mm. before [C] - [C]", pictures: [["A Horn 1", "1045"], ["A Horn 2", "1046"]]),
+    Excerpt(id: 21, description: "Excerpt 2", measures: "Mov. I, 23 mm. after [N] – End", pictures: [["A Horn 1", "1047"], ["A Horn 2", "1048"]]),
+    Excerpt(id: 22, description: "Excerpt 3", measures: "Mov. III, mm. 153-239", pictures: [["D Horn 1", "1049"], ["D Horn 2", "1050"]]),
+    Excerpt(id: 23, description: "Excerpt 4", measures: "Mov. IV, K – End", pictures: [["A Horn 1", "1051"], ["A Horn 2", "1052"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven8 = Composition(id: 7, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 8", date: "1812", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 24, description: "Excerpt 1", measures: "Mov. III, mm. 45 - 78", pictures: [["F Horn 1", "1053"], ["F Horn 2", "1054"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let beethoven9 = Composition(id: 8, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 25, description: "Excerpt 1", measures: "Mov. I, [Q] – 10 mm. after [Q]", pictures: [["D Horn 1", "1055"], ["D Horn 2", "1056"], ["B♭ basso Horn 3", "1057"], ["B♭ basso Horn 4", "1058"]]),
+    Excerpt(id: 26, description: "Excerpt 2", measures: "Mov. II, [L] - 8 mm. after [L]", pictures: [["D Horn 1", "1059"], ["D Horn 2", "1060"]]),
+    Excerpt(id: 27, description: "Excerpt 3", measures: "Mov. III, mm. 83 - 121", pictures: [["B Horn 1", "1061"], ["B Horn 2", "1062"], ["E♭ Horn 3", "1063"], ["E♭ Horn 4", "1064"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let pictures1 = [["A Horn 1", ""], ["A Horn 2", ""]]
+let pictures2 = [["D Horn 1", ""], ["D Horn 2", ""], ["B♭ basso Horn 3", ""], ["B♭ basso Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -110,9 +133,9 @@ x Beethoven – Fidelio Overture
 x Beethoven – Symphony No. 2
 x Beethoven – Symphony No. 3
 x Beethoven – Symphony No. 6
- Beethoven – Symphony No. 7
- Beethoven – Symphony No. 8
- Beethoven – Symphony No. 9
+x Beethoven – Symphony No. 7
+x Beethoven – Symphony No. 8
+x Beethoven – Symphony No. 9
  Berlioz – Roméo et Juliette
  Brahms – Academic Festival Overture
  Brahms – Piano Concerto No. 1
@@ -166,7 +189,7 @@ let bach = Composer(id: 0, name: "Johann Sebastian Bach", ipa: "joˈhan zeˈbast
 ])
 
 let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən", image: 2001, country: "Germany", dates: "1770-1827", bio: "Ludwig van Beethoven was a German composer and pianist. Beethoven began his compositional life firmly in the classical era, but was a key figure in the early romantic era. Beethoven grew to be mostly deaf in his lifetime, but never ceased composing. He was the first composer to incorporate trombones in a symphonic setting, and composed nine symphonies in his lifetime. He is considered to be one of the greatest composers of all time.", excerpts: [
-    beethovenFidelio, beethoven2, beethoven3, beethoven6
+    beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9
 ])
 
 let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2002, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [
@@ -237,7 +260,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9
     ]
     
     /**
