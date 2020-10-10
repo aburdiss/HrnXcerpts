@@ -122,8 +122,39 @@ let beethoven9 = Composition(id: 8, composer: "Ludwig van Beethoven", composerLa
     ["", ""]
 ])
 
+let berliozRomeoEtJuliet = Composition(id: 9, composer: "Hector Berlioz", composerLast: "Berlioz", name: "Roméo et Juliette", date: "1839", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 28, description: "Excerpt 1", measures: "Mov. III, 9 mm. after 57 – 4 mm. after 62", pictures: [["F Horn 1", "1065"], ["C Horn 2", "1066"], ["B♭ Alto Horn 3", "1067"], ["E♭ Horn 4", "1068"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let brahmsAcademic = Composition(id: 10, composer: "Johannes Brahms", composerLast: "Brahms", name: "Academic Festival Overture", date: "1880", era: "Romantic", genre: "Overture", excerpts: [
+    Excerpt(id: 29, description: "Excerpt 1", measures: "Beginning - [A]", pictures: [["C Horn 1", "1069"], ["C Horn 2", "1070"]]),
+    Excerpt(id: 30, description: "Excerpt 2", measures: "10 mm. after [F] – [G]", pictures: [["C Horn 1", "1071"], ["C Horn 2", "1072"], ["E Horn 3", "1073"], ["E Horn 4", "1074"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let brahmsPiano1 = Composition(id: 11, composer: "Johannes Brahms", composerLast: "Brahms", name: "Piano Concerto No. 1", date: "1859", era: "Romantic", genre: "Piano Concerto", excerpts: [
+    Excerpt(id: 31, description: "Excerpt 1", measures: "Mov. I, mm. 191 - 219", pictures: [["D Horn 1", "1075"], ["D Horn 2", "1076"], ["F Horn 3", "1077"], ["F Horn 4", "1078"]]),
+    Excerpt(id: 32, description: "Excerpt 2", measures: "Mov. I, mm. 423 - 443", pictures: [["D Horn 1", "1079"], ["D Horn 2", "1080"]]),
+    Excerpt(id: 33, description: "Excerpt 3", measures: "Mov. III, 19 mm. before [E] to [E]", pictures: [["D Horn 1", "1081"], ["D Horn 2", "1082"], ["B♭ Basso Horn 3", "1083"], ["B♭ Basso Horn 4", "1084"]]),
+    Excerpt(id: 34, description: "Excerpt 4", measures: "Mov. III, [H] - 25 mm. after [H]", pictures: [["D Horn 1", "1085"], ["D Horn 2", "1086"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let brahmsPiano2 = Composition(id: 12, composer: "Johannes Brahms", composerLast: "Brahms", name: "Piano Concerto No. 2", date: "1881", era: "Romantic", genre: "Piano Concerto", excerpts: [
+    Excerpt(id: 35, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 5", pictures: [["B♭ Basso Horn 1", "1087"]]),
+    Excerpt(id: 36, description: "Excerpt 2", measures: "Mov. I, [D] - 5 mm. after [D]", pictures: [["B♭ Basso Horn 1", "1088"], ["B♭ Basso Horn 2", "1089"], ["F Horn 3", "1090"], ["F Horn 4", "1091"]]),
+    Excerpt(id: 37, description: "Excerpt 3", measures: "Mov. I, [F] - 7 mm. before [G]", pictures: [["B♭ Basso Horn 1", "1092"], ["B♭ Basso Horn 2", "1093"], ["F Horn 3", "1094"], ["F Horn 4", "1095"]]),
+    Excerpt(id: 38, description: "Excerpt 4", measures: "Mov. II, mm. 159 - 215", pictures: [["B♭ Basso Horn 1", "1096"], ["B♭ Basso Horn 2", "1097"], ["D Horn 3", "1098"], ["D Horn 4", "1099"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
 let pictures1 = [["A Horn 1", ""], ["A Horn 2", ""]]
-let pictures2 = [["D Horn 1", ""], ["D Horn 2", ""], ["B♭ basso Horn 3", ""], ["B♭ basso Horn 4", ""]]
+let pictures2 = [["B♭ Horn 1", ""], ["B♭ Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -136,10 +167,10 @@ x Beethoven – Symphony No. 6
 x Beethoven – Symphony No. 7
 x Beethoven – Symphony No. 8
 x Beethoven – Symphony No. 9
- Berlioz – Roméo et Juliette
- Brahms – Academic Festival Overture
- Brahms – Piano Concerto No. 1
- Brahms – Piano Concerto No. 2
+x Berlioz – Roméo et Juliette
+x Brahms – Academic Festival Overture
+x Brahms – Piano Concerto No. 1
+x Brahms – Piano Concerto No. 2
  Brahms – Symphony No. 1
  Brahms – Symphony No. 2
  Brahms – Symphony No. 3
@@ -193,9 +224,11 @@ let beethoven = Composer(id: 1, name: "Ludwig Van Beethoven", ipa: "ˈlʊdvɪɡ 
 ])
 
 let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌoʊz", image: 2002, country: "France", dates: "1803-1869", bio: "Hector Berlioz was a French Romantic composer, who gained his popularity through his unwillingness to accept traditional rules and formulas. He frequently employed extended techniques in many instruments, and developed his own forms and techniques for composition. He was internationally acclaimed as a conductor, and was also a prominant musical journalist.", excerpts: [
+    berliozRomeoEtJuliet
 ])
 
 let brahms = Composer(id: 3, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2003, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
+    brahmsAcademic, brahmsPiano1, brahmsPiano2
 ])
 
 let bruckner = Composer(id: 4, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2004, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
@@ -260,7 +293,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2
     ]
     
     /**
