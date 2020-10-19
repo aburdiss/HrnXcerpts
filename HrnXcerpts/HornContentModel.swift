@@ -184,8 +184,34 @@ let brahms4 = Composition(id: 16, composer: "Johannes Brahms", composerLast: "Br
     ["", ""]
 ])
 
+let brahmsVariations = Composition(id: 17, composer: "Johannes Brahms", composerLast: "Brahms", name: "Variations on a Theme by Haydn", date: "1873", era: "Romantic", genre: "Variations", excerpts: [
+    Excerpt(id: 50, description: "Excerpt 1", measures: "Variation VI", pictures: [["B♭ Basso Horn 1", "1135"], ["B♭ Basso Horn 2", "1136"], ["F Horn 3", "1137"], ["F Horn 4", "1138"]]),
+    Excerpt(id: 51, description: "Excerpt 2", measures: "Finale, 5 mm. after [O] - End", pictures: [["B♭ Basso Horn 1", "1139"], ["B♭ Basso Horn 2", "1140"], ["F Horn 3", "1141"], ["F Horn 4", "1142"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bruckner4 = Composition(id: 18, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 4", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 52, description: "Excerpt 1", measures: "Mov. I, Beginning - [A]", pictures: [["F Horn 1", "1143"], ["F Horn 2", "1144"]]),
+    Excerpt(id: 53, description: "Excerpt 2", measures: "Mov. I, [H] - [I]", pictures: [["F Horn 1", "1145"], ["F Horn 2", "1146"], ["F Horn 3", "1147"], ["F Horn 4", "1148"]]),
+    Excerpt(id: 54, description: "Excerpt 3", measures: "Mov. II, 5 mm. after [D] - 9 mm. before [E]", pictures: [["F Horn 1", "1149"], ["F Horn 3", "1150"]]),
+    Excerpt(id: 55, description: "Excerpt 4", measures: "Mov. III, Beginning - [D]", pictures: [["F Horn 1", "1151"], ["F Horn 2", "1152"], ["F Horn 3", "1153"], ["F Horn 4", "1154"]]),
+    Excerpt(id: 56, description: "Excerpt 5", measures: "Mov. IV, [F] - [K]", pictures: [["F Horn 1", "1155"], ["F Horn 2", "1156"], ["F Horn 3", "1157"], ["F Horn 4", "1158"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let bruckner7 = Composition(id: 19, composer: "Anton Bruckner", composerLast: "Bruckner", name: "Symphony No. 7", date: "1885", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 57, description: "Excerpt 1", measures: "Mov. II, [S] - 3 mm. after [S]", pictures: [["B♭ Tenor Wagner Tuba 1", "1163"], ["B♭ Tenor Wagner Tuba 2", "1169"], ["F Bass Wagner Tuba 1", "1165"], ["F Bass Wagner Tuba 2", "1167"]]),
+    Excerpt(id: 58, description: "Excerpt 2", measures: "Mov. IV, [P] - [S]", pictures: [["F Horn 1", "1159"], ["F Horn 2", "1160"], ["F Horn 3", "1161"], ["F Horn 4", "1162"], ["B♭ Tenor Wagner Tuba 1", "1164"], ["B♭ Tenor Wagner Tuba 2", "1170"], ["F Bass Wagner Tuba 1", "1166"], ["F Bass Wagner Tuba 2", "1168"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+// Last Image: 1170
+
 let pictures1 = [["E Horn 1", ""], ["E Horn 2", ""]]
-let pictures2 = [["E Horn 1", ""], ["E Horn 2", ""], ["C Horn 3", ""], ["C Horn 4", ""]]
+let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -206,9 +232,9 @@ x Brahms – Symphony No. 1
 x Brahms – Symphony No. 2
 x Brahms – Symphony No. 3
 x Brahms – Symphony No. 4
- Brahms – Variations on a Theme by Haydn
- Bruckner – Symphony No. 4
- Bruckner – Symphony No. 7
+x Brahms – Variations on a Theme by Haydn
+x Bruckner – Symphony No. 4
+x Bruckner – Symphony No. 7
  Dvořák – Cello Concerto
  Dvořák – Symphony No. 9
  Franck – Symphony in D minor
@@ -259,10 +285,11 @@ let berlioz = Composer(id: 2, name: "Hector Berlioz", ipa: "ɛkˈtɔr bɛr liˌo
 ])
 
 let brahms = Composer(id: 3, name: "Johannes Brahms", ipa: "joˈhanəs ˈbʁaːms", image: 2003, country: "Germany", dates: "1833-1897", bio: "Johannes Brahms was one of the most famous composers of all time. He is most famous for his four symphonies, but he wrote for many diverse ensembles. Brahms was a perfectionist in all that he did, and was known to occaisionally destroy some of his work to prevent it from being seen by the outside world.", excerpts: [
-    brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4
+    brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations
 ])
 
 let bruckner = Composer(id: 4, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊknɐ", image: 2004, country: "Austria", dates: "1824-1896", bio: "Anton Bruckner was an Austrian organist, music theorist, and composer of the romantic era. He is best known for his symphonies and religious music. Bruckner was unlike other composers of his time, in that he was very a very humble man.", excerpts: [
+    bruckner4, bruckner7
 ])
 
 let dvorak = Composer(id: 5, name: "Antonín Dvořák", ipa: "ˈɑn tɔ nyin ˈdvɔr ʒɑk", image: 2005, country: "Austrian Empire", dates: "1841-1904", bio: "Dvořák was one of the first Czech composers to recieve worldwide recognition. Dvořák was an admirer of Richard Wagner, and took influence from him especially in his Operas. He frequently included folk music in his compositions, and his music often had nationalistic themes.", excerpts: [
@@ -324,7 +351,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7
     ]
     
     /**
