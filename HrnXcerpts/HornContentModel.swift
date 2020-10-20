@@ -208,7 +208,60 @@ let bruckner7 = Composition(id: 19, composer: "Anton Bruckner", composerLast: "B
     ["", ""]
 ])
 
-// Last Image: 1170
+let dvorakCello = Composition(id: 20, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Cello Concerto", date: "1895", era: "Romantic", genre: "Cello Concerto", excerpts: [
+    Excerpt(id: 59, description: "Excerpt 1", measures: "Mov. I, 11 mm. after [2] - 10 mm. before [3]", pictures: [["E Horn 1", "1171"]]),
+    Excerpt(id: 60, description: "Excerpt 2", measures: "Mov. I, 6 mm. before [7] - 6 mm. before [8]", pictures: [["E Horn 1", "1172"], ["E Horn 2", "1173"], ["D Horn 3", "1174"]]),
+    Excerpt(id: 61, description: "Excerpt 3", measures: "Mov. I, [8] - [9]", pictures: [["E Horn 1", "1175"], ["E Horn 2", "1176"], ["D Horn 3", "1177"]]),
+    Excerpt(id: 62, description: "Excerpt 4", measures: "Mov. II, [6] - 13 mm. after [6]", pictures: [["F Horn 1", "1178"], ["F Horn 2", "1179"], ["C Horn 3", "1180"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 63, description: "Excerpt 1", measures: "Mov. I, mm. 16 - 27", pictures: [["E Horn 1", "1181"], ["E Horn 2", "1182"], ["C Horn 3", "1183"], ["C Horn 4", "1184"]]),
+    Excerpt(id: 64, description: "Excerpt 2", measures: "Mov. I, 13 mm. after [6] - 6 mm. before [8]", pictures: [["E Horn 1", "1185"], ["E Horn 2", "1186"], ["C Horn 3", "1187"], ["C Horn 4", "1188"]]),
+    Excerpt(id: 65, description: "Excerpt 3", measures: "Mov. II, 7 mm. before [2] - [2]", pictures: [["E Horn 1", "1189"], ["E Horn 2", "1190"]]),
+    Excerpt(id: 66, description: "Excerpt 4", measures: "Mov. III, 6 mm. before [3] - 4 mm. before [4]", pictures: [["E Horn 1", "1191"], ["E Horn 2", "1192"], ["E Horn 3", "1193"], ["E Horn 4", "1194"]]),
+    Excerpt(id: 67, description: "Excerpt 5", measures: "Mov. IV, mm. 1 - 25", pictures: [["E Horn 1", "1195"], ["E Horn 2", "1196"], ["E Horn 3", "1197"], ["E Horn 4", "1198"]]),
+    Excerpt(id: 68, description: "Excerpt 6", measures: "Mov. IV, 8 mm. before [11] - [11]", pictures: [["E Horn 1", "1199"], ["E Horn 2", "1200"], ["E Horn 3", "1201"], ["E Horn 4", "1202"]])
+], mutes: "Straight", videos: [
+    ["", ""]
+])
+
+let franckD = Composition(id: 22, composer: "César Franck", composerLast: "Franck", name: "Symphony in D Minor", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 69, description: "Excerpt 1", measures: "Mov. II, 7 mm. before [B] - [C]", pictures: [["F Horn 1", "1203"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let haydn31 = Composition(id: 23, composer: "Franz Joseph Haydn", composerLast: "Haydn", name: "Symphony No. 31", date: "1765", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 70, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 16", pictures: [["D Horn 1", "1204"], ["D Horn 2", "1205"], ["D Horn 3", "1206"], ["D Horn 4", "1207"]]),
+    Excerpt(id: 71, description: "Excerpt 2", measures: "Mov. II, mm. 1 - 16", pictures: [["D Horn 1", "1208"], ["D Horn 2", "1209"], ["G Horn 3", "1210"], ["G Horn 4", "1211"]]),
+    Excerpt(id: 72, description: "Excerpt 3", measures: "Mov. II, mm. 36 - 41", pictures: [["D Horn 1", "1212"], ["D Horn 2", "1213"], ["G Horn 3", "1214"], ["G Horn 4", "1215"]]),
+    Excerpt(id: 73, description: "Excerpt 4", measures: "Mov. III, Trio", pictures: [["D Horn 1", "1216"], ["D Horn 2", "1217"], ["D Horn 3", "1218"], ["D Horn 4", "1219"]]),
+    Excerpt(id: 74, description: "Excerpt 5", measures: "Mov. IV, Variation IV", pictures: [["D Horn 1", "1220"], ["D Horn 2", "1221"], ["D Horn 3", "1222"], ["D Horn 4", "1223"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let lisztLesPreludes = Composition(id: 24, composer: "Franz Liszt", composerLast: "Liszt", name: "Les préludes", date: "1855", era: "Romantic", genre: "Symphonic Poem", excerpts: [
+    Excerpt(id: 75, description: "Excerpt 1", measures: "mm. 55 - 62", pictures: [["E Horn 1", "1224"]]),
+    Excerpt(id: 76, description: "Excerpt 2", measures: "mm. 69 - 86", pictures: [["E Horn 1", "1225"], ["E Horn 2", "1226"], ["E Horn 3", "1227"], ["E Horn 4", "1228"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler1 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 77, description: "Excerpt 1", measures: "Mov. I, 4 mm. before [2] - [3]", pictures: [["F Horn 1", "1229"], ["F Horn 2", "1230"], ["F Horn 4", "1231"]]),
+    Excerpt(id: 78, description: "Excerpt 2", measures: "Mov. I, 4 mm. before [15] - 12 mm. after [15]", pictures: [["F Horn 1", "1232"], ["F Horn 2", "1233"], ["F Horn 3", "1234"], ["F Horn 4", "1235"]]),
+    Excerpt(id: 79, description: "Excerpt 3", measures: "Mov. I, [25] - End", pictures: [["F Horn 1", "1236"], ["F Horn 2", "1237"], ["F Horn 3", "1238"], ["F Horn 4", "1239"]]),
+    Excerpt(id: 80, description: "Excerpt 4", measures: "Mov. II, [13] - 4 mm. after [16]", pictures: [["F Horn 1", "1240"], ["F Horn 2", "1241"], ["F Horn 3", "1242"], ["F Horn 4", "1243"]]),
+    Excerpt(id: 81, description: "Excerpt 5", measures: "Mov. III, [13] - [15]", pictures: [["F Horn 1", "1244"], ["F Horn 2", "1245"], ["F Horn 3", "1246"], ["F Horn 4", "1247"]]),
+    Excerpt(id: 82, description: "Excerpt 6", measures: "Mov. IV, 8 mm. before [52] - End", pictures: [["F Horn 1", "1248"], ["F Horn 2", "1249"], ["F Horn 3", "1250"], ["F Horn 4", "1251"], ["F Horn 5", "1252"], ["F Horn 6", "1253"], ["F Horn 7", "1254"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
 
 let pictures1 = [["E Horn 1", ""], ["E Horn 2", ""]]
 let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
@@ -235,12 +288,12 @@ x Brahms – Symphony No. 4
 x Brahms – Variations on a Theme by Haydn
 x Bruckner – Symphony No. 4
 x Bruckner – Symphony No. 7
- Dvořák – Cello Concerto
- Dvořák – Symphony No. 9
- Franck – Symphony in D minor
- Haydn – Symphony No. 31
- Liszt – Les préludes
- Mahler – Symphony No. 1
+x Dvořák – Cello Concerto
+x Dvořák – Symphony No. 9
+x Franck – Symphony in D minor
+x Haydn – Symphony No. 31
+x Liszt – Les préludes
+x Mahler – Symphony No. 1
  Mahler – Symphony No. 3
  Mahler – Symphony No. 5
  Mahler – Symphony No. 9
@@ -293,18 +346,23 @@ let bruckner = Composer(id: 4, name: "Anton Bruckner", ipa: " 'antɔn ˈbʁʊkn�
 ])
 
 let dvorak = Composer(id: 5, name: "Antonín Dvořák", ipa: "ˈɑn tɔ nyin ˈdvɔr ʒɑk", image: 2005, country: "Austrian Empire", dates: "1841-1904", bio: "Dvořák was one of the first Czech composers to recieve worldwide recognition. Dvořák was an admirer of Richard Wagner, and took influence from him especially in his Operas. He frequently included folk music in his compositions, and his music often had nationalistic themes.", excerpts: [
+    dvorakCello, dvorak9
 ])
 
 let franck = Composer(id: 6, name: "César Franck", ipa: "seɪˈzar frɑŋk", image: 2006, country: "United Kingdom of the Netherlands (Now Belgium)", dates: "1822 - 1890", bio: "Franck studied music in Paris at a young age. After his studies, he returned to Belgium and gained a terrible reputation for his oratorio \"Ruth\", and moved to Paris where he became an organist and teacher. Later in life, he became the organist for the Basilica of Saint Clotilde, where he remained for the rest of his life, composing in his free time pieces that are now considered standard repetoire.", excerpts: [
+    franckD
 ])
 
 let haydn = Composer(id: 7, name: "Franz Joseph Haydn", ipa: "ˈfʁants ˈjoːzɛf ˈhaɪdn̩", image: 2007, country: "Austria", dates: "1732-1809", bio: "Haydn was a classical composer who is commonly known as \"The father of the Symphony\". He spent most of his life as a court musician for the Esterházy family. He was isolated in this role, with little to no contact with the rest of the music community, and was forced to create his own style because of this. Haydn was a prolific composer, producing 104 numbered symphonies and an immense amount of chamber music.", excerpts: [
+    haydn31
 ])
 
 let liszt = Composer(id: 8, name: "Franz Liszt", ipa: "ˈfɛrɛnt͡s ˈlist", image: 2008, country: "Hungary", dates: "1811-1886", bio: "Franz Liszt is regarded as one of the greatest pianists to ever live. A well known and travelled musician in his time, he invented what we now know as the recital, and set the precedent for memorizing solo compositions. Liszt also pioneered new paths in musical form and harmony, inventing the Symphonic Poem and made radical innovations in harmony.", excerpts: [
+    lisztLesPreludes
 ])
 
 let mahler = Composer(id: 9, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2009, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
+    mahler1
 ])
 
 let mendellsohn = Composer(id: 10, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2010, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
@@ -351,7 +409,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1
     ]
     
     /**
