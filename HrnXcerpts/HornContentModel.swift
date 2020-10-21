@@ -251,7 +251,7 @@ let lisztLesPreludes = Composition(id: 24, composer: "Franz Liszt", composerLast
     ["", ""]
 ])
 
-let mahler1 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+let mahler1 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Late Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 77, description: "Excerpt 1", measures: "Mov. I, 4 mm. before [2] - [3]", pictures: [["F Horn 1", "1229"], ["F Horn 2", "1230"], ["F Horn 4", "1231"]]),
     Excerpt(id: 78, description: "Excerpt 2", measures: "Mov. I, 4 mm. before [15] - 12 mm. after [15]", pictures: [["F Horn 1", "1232"], ["F Horn 2", "1233"], ["F Horn 3", "1234"], ["F Horn 4", "1235"]]),
     Excerpt(id: 79, description: "Excerpt 3", measures: "Mov. I, [25] - End", pictures: [["F Horn 1", "1236"], ["F Horn 2", "1237"], ["F Horn 3", "1238"], ["F Horn 4", "1239"]]),
@@ -262,9 +262,31 @@ let mahler1 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahl
     ["", ""]
 ])
 
+let mahler3 = Composition(id: 26, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 3", date: "1896", era: "Late Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 83, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 11", pictures: [["F Horn 1", "1255"], ["F Horn 2", "1256"], ["F Horn 3", "1257"], ["F Horn 4", "1258"], ["F Horn 5", "1259"], ["F Horn 6", "1260"], ["F Horn 7", "1261"], ["F Horn 8", "1262"]]),
+    Excerpt(id: 84, description: "Excerpt 2", measures: "Mov. I, [29] - 2 mm. before [33] ", pictures: [["F Horn 1", "1263"], ["F Horn 2", "1264"], ["F Horn 3", "1265"], ["F Horn 4", "1266"], ["F Horn 5", "1267"], ["F Horn 6", "1268"], ["F Horn 7", "1269"], ["F Horn 8", "1270"]]),
+    Excerpt(id: 85, description: "Excerpt 3", measures: "Mov. I, [39] - [40]", pictures: [["F Horn 1", "1271"], ["F Horn 2", "1272"]]),
+    Excerpt(id: 86, description: "Excerpt 4", measures: "Mov. I, [51] - 3 mm. before [54]", pictures: [["F Horn 1", "1273"], ["F Horn 2", "1274"], ["F Horn 3", "1275"], ["F Horn 4", "1276"], ["F Horn 5", "1277"], ["F Horn 6", "1278"], ["F Horn 7", "1279"], ["F Horn 8", "1280"]]),
+    Excerpt(id: 87, description: "Excerpt 5", measures: "Mov. I, [55] - 4 mm. before [57]", pictures: [["F Horn 1", "1281"], ["F Horn 2", "1282"], ["F Horn 3", "1283"], ["F Horn 4", "1284"], ["F Horn 5", "1285"], ["F Horn 6", "1286"], ["F Horn 7", "1287"], ["F Horn 8", "1288"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mahler5 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 5", date: "1902", era: "Late Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 88, description: "Excerpt 1", measures: "Mov. I, [3] - [4]", pictures: [["F Horn 1", "1289"], ["F Horn 2", "1290"], ["F Horn 3", "1291"], ["F Horn 4", "1292"], ["F Horn 5", "1293"], ["F Horn 6", "1294"]]),
+    Excerpt(id: 89, description: "Excerpt 2", measures: "Mov. I, 9 mm. after [8] - [9]", pictures: [["F Horn 1", "1295"], ["F Horn 2", "1296"], ["F Horn 3", "1297"], ["F Horn 4", "1298"], ["F Horn 5", "1299"], ["F Horn 6", "1300"]]),
+    Excerpt(id: 90, description: "Excerpt 3", measures: "Mov. III, Beginning - [2]", pictures: [["F Horn obligato", "1301"], ["F Horn 1", "1302"], ["F Horn 2", "1303"], ["F Horn 3", "1304"], ["F Horn 4", "1305"], ["F Horn 5", "1306"]]),
+    Excerpt(id: 91, description: "Excerpt 4", measures: "Mov. III, 18 mm. after [8] - [11]", pictures: [["F Horn obligato", "1307"], ["F Horn 1", "1308"], ["F Horn 2", "1309"], ["F Horn 3", "1310"], ["F Horn 4", "1311"], ["F Horn 5", "1312"]]),
+    Excerpt(id: 92, description: "Excerpt 5", measures: "Mov. III, 15 mm. before [12] - 9 mm. after [12]", pictures: [["F Horn obligato", "1313"], ["F Horn 3", "1314"], ["F Horn 5", "1315"]]),
+    Excerpt(id: 93, description: "Excerpt 6", measures: "Mov. III, 4 mm. before [21] - [24]", pictures: [["F Horn obligato", "1316"], ["F Horn 1", "1317"], ["F Horn 2", "1318"], ["F Horn 3", "1319"], ["F Horn 4", "1320"], ["F Horn 5", "1321"]]),
+    Excerpt(id: 94, description: "Excerpt 7", measures: "Mov. III, 9 mm. after [30] - End", pictures: [["F Horn obligato", "1322"], ["F Horn 1", "1323"], ["F Horn 2", "1324"], ["F Horn 3", "1325"], ["F Horn 4", "1326"], ["F Horn 5", "1327"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
 
 let pictures1 = [["E Horn 1", ""], ["E Horn 2", ""]]
-let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
+let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""], ["F Horn 5", ""], ["F Horn 6", ""]]
 let flat = "♭"
 
 /*
@@ -294,8 +316,8 @@ x Franck – Symphony in D minor
 x Haydn – Symphony No. 31
 x Liszt – Les préludes
 x Mahler – Symphony No. 1
- Mahler – Symphony No. 3
- Mahler – Symphony No. 5
+x Mahler – Symphony No. 3
+x Mahler – Symphony No. 5
  Mahler – Symphony No. 9
  Mendelssohn – A Midsummer Night’s Dream
  Mendelssohn – Symphony No. 3
@@ -362,7 +384,7 @@ let liszt = Composer(id: 8, name: "Franz Liszt", ipa: "ˈfɛrɛnt͡s ˈlist", im
 ])
 
 let mahler = Composer(id: 9, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2009, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
-    mahler1
+    mahler1, mahler3, mahler5
 ])
 
 let mendellsohn = Composer(id: 10, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2010, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
@@ -409,7 +431,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5
     ]
     
     /**
