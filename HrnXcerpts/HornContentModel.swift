@@ -284,9 +284,43 @@ let mahler5 = Composition(id: 27, composer: "Gustav Mahler", composerLast: "Mahl
     ["", ""]
 ])
 
+let mahler9 = Composition(id: 28, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 9", date: "1910", era: "Late Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 95, description: "Excerpt 1", measures: "Mov. I, mm. 4 - 6 mm. after [2]", pictures: [["F Horn 2", "1328"], ["F Horn 4", "1329"]]),
+    Excerpt(id: 96, description: "Excerpt 2", measures: "Mov. I, offen after [16] - Nicht merh so langsam", pictures: [["F Horn 1", "1330"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mendelssohnMidsummer = Composition(id: 29, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "A Midsummer Night's Dream", date: "1842", era: "Romantic", genre: "Incidental Music", excerpts: [
+    Excerpt(id: 97, description: "Excerpt 1", measures: "No. 7, Beginning - 4 mm. before [A]", pictures: [["E Horn 1", "1331"], ["E Horn 2", "1332"]]),
+    Excerpt(id: 98, description: "Excerpt 2", measures: "No. 7, [C] - End", pictures: [["E Horn 1", "1333"], ["E Horn 2", "1334"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mendelssohn3 = Composition(id: 30, composer: "Felix Mendelssohn", composerLast: "Mendelssohn", name: "Symphony No. 3", date: "1842", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 99, description: "Excerpt 1", measures: "Mov. II, 16 mm. after [A] - [B]", pictures: [["C Horn 1", "1335"], ["C Horn 2", "1336"], ["F Horn 3", "1337"], ["F Horn 4", "1338"]]),
+    Excerpt(id: 100, description: "Excerpt 2", measures: "Mov. II, 10 mm. before [F] - 3 mm. after [G]", pictures: [["C Horn 1", "1339"], ["C Horn 2", "1340"], ["F Horn 3", "1341"], ["F Horn 4", "1342"]]),
+    Excerpt(id: 101, description: "Excerpt 3", measures: "Mov. III, 5 mm. after [D] - 4 mm. before [E]", pictures: [["C Horn 1", "1343"], ["C Horn 2", "1344"], ["D Horn 3", "1345"], ["D Horn 4", "1346"]]),
+    Excerpt(id: 102, description: "Excerpt 4", measures: "Mov. IV, mm. 396 - End", pictures: [["A Horn 1", "1347"], ["A Horn 2", "1348"], ["D Horn 3", "1349"], ["D Horn 4", "1350"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mozart29 = Composition(id: 31, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 29", date: "1774", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 103, description: "Excerpt 1", measures: "Mov. IV, mm. 155 - End", pictures: [["A Horn 1", "1351"], ["A Horn 2", "1352"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let mozart40 = Composition(id: 32, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 40", date: "1788", era: "Classical", genre: "Symphony", excerpts: [
+    Excerpt(id: 104, description: "Excerpt 1", measures: "Mov. III, Trio", pictures: [["G Horn 1", "1353"], ["G Horn 2", "1354"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
 let pictures1 = [["E Horn 1", ""], ["E Horn 2", ""]]
-let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""], ["F Horn 5", ""], ["F Horn 6", ""]]
+let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -318,11 +352,11 @@ x Liszt – Les préludes
 x Mahler – Symphony No. 1
 x Mahler – Symphony No. 3
 x Mahler – Symphony No. 5
- Mahler – Symphony No. 9
- Mendelssohn – A Midsummer Night’s Dream
- Mendelssohn – Symphony No. 3
- Mozart – Symphony No. 29
- Mozart – Symphony No. 40
+x Mahler – Symphony No. 9
+x Mendelssohn – A Midsummer Night’s Dream
+x Mendelssohn – Symphony No. 3
+x Mozart – Symphony No. 29
+x Mozart – Symphony No. 40
  Rimsky-Korsakov – Scheherazade
  Rossini – Semiramide
  Saint-Saëns – Symphony No. 3
@@ -384,13 +418,15 @@ let liszt = Composer(id: 8, name: "Franz Liszt", ipa: "ˈfɛrɛnt͡s ˈlist", im
 ])
 
 let mahler = Composer(id: 9, name: "Gustav Mahler", ipa: "ˈgʊs tɑf ˈmɑ lər", image: 2009, country: "Austrian Empire", dates: "1860-1911", bio: "Mahler is one of the most popular composers of all time. In 2016, a BBC Music survey ranked three of his symphonies among the top ten symphonies of all time. His music continues to be among the top recorded and perfomed in all of classical music. During his day, he was also among one of the top conductors of his era, and was the first conductor of the New York Philharmonic Orchestra.", excerpts: [
-    mahler1, mahler3, mahler5
+    mahler1, mahler3, mahler5, mahler9
 ])
 
 let mendellsohn = Composer(id: 10, name: "Felix Mendelssohn", ipa: "'fi lɪks 'mɛn dl sən", image: 2010, country: "Germany", dates: "1809-1947", bio: "Mendelssohn was born into a Jewish family, but was baptised Reformed Christian at the age of seven. He was known as a child prodigy, but his parents did not seek to capitalize on his talents. Well known as a composer, conductor, and organist, Mendelssohn helped to bring fame to the music of Bach.", excerpts: [
+    mendelssohnMidsummer, mendelssohn3
 ])
 
 let mozart = Composer(id: 11, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf gæŋ ˌæm əˈdeɪ əs ˈmoʊt sɑrt", image: 2011, country: "Germany", dates: "1756-1791", bio: "Mozart gained popularity as a pianist and composer at an early age. He gained employment as a court musician at the Salzburg court, but quickly lost interest and began traveling looking for other employment. In Vienna, he found great fame, but worked his whole life trying to achieve financial stability: a goal he was never able to achieve. Mozart's death is also very mysterious and controvercial.", excerpts: [
+    mozart29, mozart40
 ])
 
 let rimskyKorsakov = Composer(id: 12, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2012, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
@@ -431,7 +467,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40
     ]
     
     /**
