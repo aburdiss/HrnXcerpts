@@ -319,8 +319,45 @@ let mozart40 = Composition(id: 32, composer: "Wolfgang Amadeus Mozart", composer
     ["", ""]
 ])
 
-let pictures1 = [["E Horn 1", ""], ["E Horn 2", ""]]
-let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
+let rimskyKorsakovScheherazade = Composition(id: 33, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Suite", excerpts: [
+    Excerpt(id: 105, description: "Excerpt 1", measures: "Mov. II, [K] - [L]", pictures: [["F Horn 1", "1355"], ["F Horn 2", "1356"], ["F Horn 3", "1357"], ["F Horn 4", "1358"]]),
+    Excerpt(id: 106, description: "Excerpt 2", measures: "Mov. II, 21 mm. after [Q] - End", pictures: [["F Horn 1", "1359"], ["F Horn 2", "1360"], ["F Horn 3", "1361"], ["F Horn 4", "1362"]]),
+    Excerpt(id: 107, description: "Excerpt 3", measures: "Mov. IV, [U] - [V]", pictures: [["F Horn 1", "1363"], ["F Horn 2", "1364"], ["F Horn 3", "1365"], ["F Horn 4", "1366"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let rossiniSemiramide = Composition(id: 34, composer: "Gioacchino Rossini", composerLast: "Rossini", name: "Semiramide", date: "1823", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 108, description: "Excerpt 1", measures: "Overture, [B] - [C]", pictures: [["D Horn 1", "1367"], ["D Horn 2", "1368"], ["D Horn 3", "1369"], ["D Horn 4", "1370"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let saintSaens3 = Composition(id: 35, composer: "Camille Saint-Saëns", composerLast: "Saint-Saëns", name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 109, description: "Excerpt 1", measures: "Mov. I, 4 mm. before [N] - 16 mm. after [N]", pictures: [["F Horn 3", "1371"], ["F Horn 4", "1372"]]),
+    Excerpt(id: 110, description: "Excerpt 2", measures: "Mov. I, [Q] - [S]", pictures: [["F Horn 3", "1373"]]),
+    Excerpt(id: 111, description: "Excerpt 3", measures: "Mov. II, 13 mm. after [BB] - [CC]", pictures: [["F Horn 3", "1374"], ["F Horn 4", "1375"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let schubert9 = Composition(id: 36, composer: "Franz Schubert", composerLast: "Schubert", name: "Symphony No. 9", date: "1828", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 112, description: "Excerpt 1", measures: "Mov. I, mm. 1 - 8", pictures: [["C Horn 1", "1376"], ["C Horn 2", "1377"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let schumann3 = Composition(id: 37, composer: "Robert Schumann", composerLast: "Schumann", name: "Symphony No. 3", date: "1850", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 113, description: "Excerpt 1", measures: "Mov. I, 6 mm. before [A] - 17 mm. after [A]", pictures: [["E♭ Horn 1", "1378"], ["E♭ Horn 2", "1379"], ["E♭ Horn 3", "1380"], ["E♭ Horn 4", "1381"]]),
+    Excerpt(id: 114, description: "Excerpt 2", measures: "Mov. I, 4 mm. before [L] - 8 mm. before [M]", pictures: [["E♭ Horn 1", "1382"], ["E♭ Horn 2", "1383"]]),
+    Excerpt(id: 115, description: "Excerpt 3", measures: "Mov. II, mm. 25 - 48", pictures: [["F Horn 1", "1384"], ["F Horn 2", "1385"], ["C Horn 3", "1386"], ["C Horn 4", "1387"]]),
+    Excerpt(id: 116, description: "Excerpt 4", measures: "Mov. IV, mm. 1 - 8", pictures: [["E♭ Horn 1", "1388"], ["E♭ Horn 2", "1389"], ["E♭ Horn 3", "1390"], ["E♭ Horn 4", "1391"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let pictures1 = [["C Horn 1", ""], ["C Horn 2", ""]]
+let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["C Horn 3", ""], ["C Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -357,11 +394,11 @@ x Mendelssohn – A Midsummer Night’s Dream
 x Mendelssohn – Symphony No. 3
 x Mozart – Symphony No. 29
 x Mozart – Symphony No. 40
- Rimsky-Korsakov – Scheherazade
- Rossini – Semiramide
- Saint-Saëns – Symphony No. 3
- Schubert – Symphony No. 9
- Schumann – Symphony No. 3
+x Rimsky-Korsakov – Scheherazade
+x Rossini – Semiramide
+x Saint-Saëns – Symphony No. 3
+x Schubert – Symphony No. 9
+x Schumann – Symphony No. 3
  Strauss – Don Juan
  Strauss – Don Quixote
  Strauss – Ein Heldenleben
@@ -430,18 +467,23 @@ let mozart = Composer(id: 11, name: "Wolfgang Amadeus Mozart", ipa: "ˈwʊlf g
 ])
 
 let rimskyKorsakov = Composer(id: 12, name: "Nikolai Rimsky-Korsakov", ipa: "nʲɪkəˈlaj ˈrʲimskʲɪj ˈkorsəkəf", image: 2012, country: "Russia", dates: "1844-1908", bio: "Nikolai Rimsky-Korsakov was one of the most famous Russian composers. He was a master orchestrator, publishing a textbook on the subject using musical examples solely from his own compositions, and his most famous compositions are his orchestral works. Rimsky-Korsakov also spent a large portion of his musical life in association with the Russian military.", excerpts: [
+    rimskyKorsakovScheherazade
 ])
 
 let rossini = Composer(id: 13, name: "Gioachino Rossini", ipa: "dʒɔ ɑkˈki nɔ roʊˈsi ni", image: 2013, country: "Italy", dates: "1792-1868", bio: "Rossini was an Italian composer from the romantic era. His 39 operas gained him great success early in life, but he unexplainably gave up music almost entirely for the last 40 years of his life.", excerpts: [
+    rossiniSemiramide
 ])
 
 let saintSaens = Composer(id: 14, name: "Camille Saint-Saëns", ipa: "kamij sɛ̃ sɑ̃(s)", image: 2014, country: "France", dates: "1835-1921", bio: "Saint-Saëns was a French composer, conductor, organist, and pianist during the romantic era. Revered as a genius, he lived a mostly conventional carreer as a church organist. His most notable student was Gabriel Fauré.", excerpts: [
+    saintSaens3
 ])
 
 let schubert = Composer(id: 15, name: "Franz Schubert", ipa: "ˈfʁant͡s ˈʃuːbɐt", image: 2015, country: "Austria", dates: "1797-1828", bio: "Schubert was a prolific Austrian composer during the late Classical and early Romantic eras. During his short lifetime he composed over 1500 works. During his lifetime, he recieved little fame and success. It was only after his lifetime when musicians such as Schumann, Mendelssohn, Liszt, and Brahms discovered and praised his music that it became well known and widely recieved.", excerpts: [
+    schubert9
 ])
 
 let schumann = Composer(id: 16, name: "Robert Schumann", ipa: "ˈrɒb ərt ˈʃu mɑn", image: 2016, country: "Germany", dates: "1810-1856", bio: "Schumann was one of the most popular composers of the romantic era. He gave up the study of law to become a concert pianist, but his dreams were crushed by a hand injury. He subsequently pursued a career in composition, and married his teacher's daughter, Clara Wieck. Schumann mainly composed for piano, but later in live began to compose lieder, orchestral works, and one opera.", excerpts: [
+    schumann3
 ])
 
 let rStrauss = Composer(id: 17, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2017, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
@@ -467,7 +509,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3
     ]
     
     /**
