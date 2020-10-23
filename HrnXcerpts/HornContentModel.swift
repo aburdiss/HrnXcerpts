@@ -356,8 +356,70 @@ let schumann3 = Composition(id: 37, composer: "Robert Schumann", composerLast: "
     ["", ""]
 ])
 
+let straussDonJuan = Composition(id: 38, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Juan", date: "1889", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 117, description: "Excerpt 1", measures: "20 mm. after [D] - 1 mm. before [F]", pictures: [["E Horn 1", "1392"], ["E Horn 2", "1393"], ["E Horn 3", "1394"], ["E Horn 4", "1395"]]),
+    Excerpt(id: 118, description: "Excerpt 2", measures: "17 mm. before [O] - [P]", pictures: [["F Horn 1", "1396"], ["F Horn 2", "1397"], ["F Horn 3", "1398"], ["F Horn 4", "1399"]]),
+    Excerpt(id: 119, description: "Excerpt 3", measures: "10 mm. before [W] - [CC]", pictures: [["E Horn 1", "1400"], ["E Horn 2", "1401"], ["E Horn 3", "1402"], ["E Horn 4", "1403"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussDonQuixote = Composition(id: 39, composer: "Richard Strauss", composerLast: "Strauss", name: "Don Quixote", date: "1897", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 120, description: "Excerpt 1", measures: "Introduction, [7] - [12]", pictures: [["F Horn 1", "1404"], ["F Horn 2", "1405"], ["F Horn 3", "1406"], ["F Horn 4", "1407"], ["F Horn 5", "1408"], ["F  Horn 6", "1409"]]),
+    Excerpt(id: 121, description: "Excerpt 2", measures: "Var. III, 2 mm. before [34] - 2 mm. before [35]", pictures: [["F Horn 1", "1410"], ["F Horn 2", "1411"], ["F Horn 3", "1412"], ["F Horn 4", "1413"], ["F Horn 5", "1414"], ["F  Horn 6", "1415"]]),
+    Excerpt(id: 122, description: "Excerpt 3", measures: "Var. V, 3 mm. before [48] - [48]", pictures: [["F Horn 4", "1416"]]),
+    Excerpt(id: 123, description: "Excerpt 4", measures: "Var. VII, [57] - 4 mm. after [58]", pictures: [["F Horn 1", "1417"], ["F Horn 2", "1418"], ["F Horn 3", "1419"], ["F Horn 4", "1420"], ["F Horn 5", "1421"], ["F Horn 6", "1422"]]),
+    Excerpt(id: 124, description: "Excerpt 5", measures: "Var. VIII. 6 mm. before [59] - 8 mm. after [62]", pictures: [["F Horn 1", "1423"], ["F Horn 2", "1424"], ["F Horn 3", "1425"], ["F Horn 4", "1426"], ["F Horn 5", "1427"], ["F Horn 6", "1428"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussHeldenleben = Composition(id: 40, composer: "Richard Strauss", composerLast: "Strauss", name: "Ein Heldenleben", date: "1898", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 125, description: "Excerpt 1", measures: "Beginning - [6]", pictures: [["F Horn 1", "1429"], ["F Horn 2", "1430"], ["F Horn 3", "1431"], ["F Horn 4", "1432"], ["F Horn 5", "1433"], ["F Horn 6", "1434"], ["F Horn 7", "1435"], ["F Horn 8", "1436"]]),
+    Excerpt(id: 126, description: "Excerpt 2", measures: "[8] - 4 mm. after [11]", pictures: [["F Horn 1", "1437"], ["F Horn 2", "1438"], ["F Horn 3", "1439"], ["F Horn 4", "1440"], ["F Horn 5", "1441"], ["F  Horn 6", "1442"], ["F Horn 7", "1443"], ["F Horn 8", "1444"]]),
+    Excerpt(id: 127, description: "Excerpt 3", measures: "[74] - [80]", pictures: [["F Horn 1", "1445"], ["F Horn 2", "1446"], ["F Horn 3", "1447"], ["F Horn 4", "1448"], ["F Horn 5", "1449"], ["F Horn 6", "1450"], ["F Horn 7", "1451"], ["F Horn 8", "1452"]]),
+    Excerpt(id: 128, description: "Excerpt 4", measures: "[94] - [98]", pictures: [["F Horn 1", "1453"], ["F Horn 2", "1454"], ["F Horn 3", "1455"], ["F Horn 4", "1456"], ["F Horn 5", "1457"], ["F Horn 6", "1458"], ["F Horn 7", "1459"], ["F Horn 8", "1460"]]),
+    Excerpt(id: 129, description: "Excerpt 5", measures: "[107] - End", pictures: [["F Horn 1", "1461"], ["F Horn 2", "1462"], ["F Horn 3", "1463"], ["F Horn 4", "1464"], ["F Horn 5", "1465"], ["F Horn 6", "1466"], ["F Horn 7", "1467"], ["F Horn 8", "1468"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussSinfoniaDomestica = Composition(id: 41, composer: "Richard Strauss", composerLast: "Strauss", name: "Sinfonia Domestica", date: "1903", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 130, description: "Excerpt 1", measures: "[29] - [32]", pictures: [["F Horn 1", "1469"], ["F Horn 2", "1470"], ["E Horn 3", "1471"], ["E Horn 4", "1472"], ["E Horn 5", "1473"], ["E Horn 6", "1474"]]),
+    Excerpt(id: 131, description: "Excerpt 2", measures: "[72] - [74]", pictures: [["E Horn 1", "1475"], ["E Horn 2", "1476"], ["E Horn 3", "1477"], ["E Horn 4", "1478"], ["E Horn 5", "1479"], ["E Horn 6", "1480"], ["E Horn 7", "1481"], ["E Horn 8", "1482"]]),
+    Excerpt(id: 132, description: "Excerpt 3", measures: "[97] - 2 mm. after [103]", pictures: [["E Horn 1", "1483"], ["F Horn 2", "1484"], ["E Horn 3", "1485"], ["E Horn 4", "1486"], ["F Horn 5", "1487"], ["F Horn 6", "1488"], ["F Horn 7", "1489"], ["F Horn 8", "1490"]]),
+    Excerpt(id: 133, description: "Excerpt 4", measures: "[144] - [155]", pictures: [["F Horn 1", "1491"], ["F Horn 2", "1492"], ["F Horn 3", "1493"], ["F Horn 4", "1494"], ["F Horn 5", "1495"], ["F Horn 6", "1496"], ["F Horn 7", "1497"], ["F Horn 8", "1498"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let straussEulenspiegel = Composition(id: 42, composer: "Richard Strauss", composerLast: "Strauss", name: "Till Eulenspiegels lustige Streiche", date: "1895", era: "Late Romantic", genre: "Tone Poem", excerpts: [
+    Excerpt(id: 134, description: "Excerpt 1", measures: "Beginning - [1]", pictures: [["F Horn 1", "1499"]]),
+    Excerpt(id: 135, description: "Excerpt 2", measures: "11 mm. after [28] - [31]", pictures: [["F Horn 1", "1500"], ["F Horn 2", "1501"], ["F Horn 3", "1502"], ["F Horn 4", "1503"]]),
+    Excerpt(id: 136, description: "Excerpt 3", measures: "[31] - 4 mm. before [37]", pictures: [["F Horn 1", "1504"], ["F Horn 2", "1505"], ["F Horn 3", "1506"], ["F Horn 4", "1507"]]),
+    Excerpt(id: 137, description: "Excerpt 4", measures: "[37] - [38]", pictures: [["F Horn 1", "1508"], ["F Horn 2", "1509"], ["F Horn 3", "1510"], ["F Horn 4", "1511"], ["F Horn 5", "1512"], ["F Horn 6", "1513"], ["F Horn 7", "1514"], ["F Horn 8", "1515"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovsky4 = Composition(id: 43, composer: "Pyotr Tchaikovsky", composerLast: "Tchaikovsky", name: "Symphony No. 4", date: "1878", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 138, description: "Excerpt 1", measures: "Mov. I, Beginning - 6 mm. after [A]", pictures: [["F Horn 1", "1516"], ["F Horn 2", "1517"], ["F Horn 3", "1518"], ["F Horn 4", "1519"]]),
+    Excerpt(id: 139, description: "Excerpt 2", measures: "Mov. I, [I] - [L]", pictures: [["F Horn 1", "1520"], ["F Horn 2", "1521"], ["F Horn 3", "1522"], ["F Horn 4", "1523"]]),
+    Excerpt(id: 140, description: "Excerpt 3", measures: "Mov. I, 12 mm. before [R] - [R]", pictures: [["F Horn 1", "1524"], ["F Horn 2", "1525"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let tchaikovsky5 = Composition(id: 44, composer: "Pyotr Tchaikovsky", composerLast: "Tchaikovksy", name: "Symphony No. 5", date: "1888", era: "Romantic", genre: "Symphony", excerpts: [
+    Excerpt(id: 141, description: "Excerpt 1", measures: "Mov. II, 7 mm. before [A] – 8 mm. after [A]", pictures: [["F Horn 1", "1526"]]),
+    Excerpt(id: 142, description: "Excerpt 2", measures: "Mov. IV, 8 mm. after [A] - 7 mm. after [C]", pictures: [["F Horn 1", "1527"], ["F Horn 2", "1528"], ["F Horn 3", "1529"], ["F Horn 4", "1530"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+
 let pictures1 = [["C Horn 1", ""], ["C Horn 2", ""]]
-let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["C Horn 3", ""], ["C Horn 4", ""]]
+let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
@@ -399,14 +461,13 @@ x Rossini – Semiramide
 x Saint-Saëns – Symphony No. 3
 x Schubert – Symphony No. 9
 x Schumann – Symphony No. 3
- Strauss – Don Juan
- Strauss – Don Quixote
- Strauss – Ein Heldenleben
- Strauss – Symphonia Domestica
- Strauss – Till Eulenspiegels lustige Streiche
- Stravinsky – The Firebird (1919)
- Tchaikovsky – Symphony No. 4
- Tchaikovsky – Symphony No. 5
+x Strauss – Don Juan
+x Strauss – Don Quixote
+x Strauss – Ein Heldenleben
+x Strauss – Symphonia Domestica
+x Strauss – Till Eulenspiegels lustige Streiche
+x Tchaikovsky – Symphony No. 4
+x Tchaikovsky – Symphony No. 5
  Wagner Die Walkure
  Wagner – Das Rheingold
  Wagner – Götterdämmerung
@@ -487,12 +548,15 @@ let schumann = Composer(id: 16, name: "Robert Schumann", ipa: "ˈrɒb ərt ˈ�
 ])
 
 let rStrauss = Composer(id: 17, name: "Richard Strauss", ipa: "ˈʁɪçaʁt ˈʃtʁaʊs", image: 2017, country: "Germany", dates: "1864-1949", bio: "Richard Strauss was one of the leading composers of the Romantic Era. He, along with Gustav Mahler, were considered successors of Richard Wagner. Although Strauss composed music for almost every classical genre, he is most famous for his tone poems. Strauss' compositional output began when he was just six years old, and continued almost eighty years later until his death.", excerpts: [
+    straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel
 ])
 
-let stravinsky = Composer(id: 18, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2018, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
-])
+//let stravinsky = Composer(id: 18, name: "Igor Stravinsky", ipa: "ˈi gɔr strəˈvɪn ski", image: 2018, country: "Russia", dates: "1882-1971", bio: "Igor Stravinsky was one of the most influential composers of the twentieth century. Stravinsky's music is very unique from that of other composers, and often contains russian folk melodies. Throughout his life, the kinds of compositions that he composed also changed dramatically, from symphonies, to chamber music, to ballets.", excerpts: [
+//
+//])
 
 let tchaikovsky = Composer(id: 19, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpyɔtr iˈlyitʃ tʃaɪˈkɒfski", image: 2019, country: "Russia", dates: "1840-1893", bio: "Tchaikovsky was the first Russian composer to gain international fame. Tchaikovsky recieved a western European style music education, which seemed to counter the traditional Russian music practices. This dichotomy posed a great challenge for Tchaikovsky, one that affected his self confidence a lot. Although Tchaikovsky's music gained popular support, his life was deeply affected by depression and personal crises.", excerpts: [
+    tchaikovsky4, tchaikovsky5
 ])
 
 let wagner = Composer(id: 20, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2020, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
@@ -509,14 +573,14 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel, tchaikovsky4, tchaikovsky5
     ]
     
     /**
      An alphabetical list of all of the composers in the app.
      */
     var composers: [Composer] = [
-        bach, beethoven, berlioz, brahms, bruckner, dvorak, franck, haydn, liszt, mahler, mendellsohn, mozart, rimskyKorsakov, rossini, saintSaens, schubert, schumann, rStrauss, stravinsky, tchaikovsky, wagner, weber
+        bach, beethoven, berlioz, brahms, bruckner, dvorak, franck, haydn, liszt, mahler, mendellsohn, mozart, rimskyKorsakov, rossini, saintSaens, schubert, schumann, rStrauss, /*stravinsky,*/ tchaikovsky, wagner, weber
     ]
 }
 
