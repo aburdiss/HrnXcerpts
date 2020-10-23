@@ -417,58 +417,21 @@ let tchaikovsky5 = Composition(id: 44, composer: "Pyotr Tchaikovsky", composerLa
     ["", ""]
 ])
 
+let wagnerWalkure = Composition(id: 45, composer: "Richard Wagner", composerLast: "Wagner", name: "Die Walküre", date: "1870", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 143, description: "Excerpt 1", measures: "Act I Scene III, 6 mm. before [49] - 3 mm. after [50]", pictures: [["E and F Horn 1 and 2", "1531"], ["E Horn 3 and 4", "1532"]]),
+    Excerpt(id: 144, description: "Excerpt 2", measures: "Act II Scene II, 10 mm. before [30] - 5 mm. after [31]", pictures: [["E Horn 2", "1533"]]),
+    Excerpt(id: 145, description: "Excerpt 3", measures: "Act II Scene II, 3 mm. before [41] - 4 mm. before [42]", pictures: [["F Horn 1 and 2", "1534"], ["F Horn 3 and 4", "1535"]]),
+    Excerpt(id: 146, description: "Excerpt 4", measures: "Act III Introduction, [8] - 3 mm. after [12]", pictures: [["E Horn 1 and 2", "1536"], ["E Horn 3 and 4", "1537"], ["E Horn 5 and 6", "1538"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
 
 let pictures1 = [["C Horn 1", ""], ["C Horn 2", ""]]
 let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
-x Bach – Brandenburg Concerto No. 1
-x Bach – Mass in B minor
-x Beethoven – Fidelio Overture
-x Beethoven – Symphony No. 2
-x Beethoven – Symphony No. 3
-x Beethoven – Symphony No. 6
-x Beethoven – Symphony No. 7
-x Beethoven – Symphony No. 8
-x Beethoven – Symphony No. 9
-x Berlioz – Roméo et Juliette
-x Brahms – Academic Festival Overture
-x Brahms – Piano Concerto No. 1
-x Brahms – Piano Concerto No. 2
-x Brahms – Symphony No. 1
-x Brahms – Symphony No. 2
-x Brahms – Symphony No. 3
-x Brahms – Symphony No. 4
-x Brahms – Variations on a Theme by Haydn
-x Bruckner – Symphony No. 4
-x Bruckner – Symphony No. 7
-x Dvořák – Cello Concerto
-x Dvořák – Symphony No. 9
-x Franck – Symphony in D minor
-x Haydn – Symphony No. 31
-x Liszt – Les préludes
-x Mahler – Symphony No. 1
-x Mahler – Symphony No. 3
-x Mahler – Symphony No. 5
-x Mahler – Symphony No. 9
-x Mendelssohn – A Midsummer Night’s Dream
-x Mendelssohn – Symphony No. 3
-x Mozart – Symphony No. 29
-x Mozart – Symphony No. 40
-x Rimsky-Korsakov – Scheherazade
-x Rossini – Semiramide
-x Saint-Saëns – Symphony No. 3
-x Schubert – Symphony No. 9
-x Schumann – Symphony No. 3
-x Strauss – Don Juan
-x Strauss – Don Quixote
-x Strauss – Ein Heldenleben
-x Strauss – Symphonia Domestica
-x Strauss – Till Eulenspiegels lustige Streiche
-x Tchaikovsky – Symphony No. 4
-x Tchaikovsky – Symphony No. 5
- Wagner Die Walkure
  Wagner – Das Rheingold
  Wagner – Götterdämmerung
  Wagner – Lohengrin
@@ -560,6 +523,7 @@ let tchaikovsky = Composer(id: 19, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpy�
 ])
 
 let wagner = Composer(id: 20, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2020, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
+    wagnerWalkure
 ])
 
 let weber = Composer(id: 21, name: "Carl Maria von Weber", ipa: "kɑrl məˈriə fən ˈvābər", image: 2021, country: "Germany", dates: "1786-1826", bio: "Carl Maria von Weber was a German composer, conductor, pianist, guitarist, and music critic. He is widely regarded as one of the first significant composers of the romantic school. His contributions to the field of Opera greatly influenced the development of Romantische Oper in Germany, and he was a major influence to Marschner, Meyerbeer and Wagner.", excerpts: [
@@ -573,7 +537,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel, tchaikovsky4, tchaikovsky5
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel, tchaikovsky4, tchaikovsky5, wagnerWalkure
     ]
     
     /**
