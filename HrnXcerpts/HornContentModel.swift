@@ -426,17 +426,48 @@ let wagnerWalkure = Composition(id: 45, composer: "Richard Wagner", composerLast
     ["", ""]
 ])
 
+let wagnerRheingold = Composition(id: 46, composer: "Richard Wagner", composerLast: "Wagner", name: "Das Rheingold", date: "1854", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 147, description: "Excerpt 1", measures: "Prelude, mm. 17 - 52", pictures: [["E♭ Horn 8", "1539"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerGotterdammerung = Composition(id: 45, composer: "Richard Wagner", composerLast: "Wagner", name: "Götterdämmerung", date: "1874", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 148, description: "Excerpt 1", measures: "Act I, Short call", pictures: [["F Horn 1", "1540"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerLohengrin = Composition(id: 46, composer: "Richard Wagner", composerLast: "Wagner", name: "Lohengrin", date: "1848", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 149, description: "Excerpt 1", measures: "Act II Scene III, 1 mm. after [30] - [32]", pictures: [["D Horn 1", "1541"], ["D Horn 2", "1542"], ["D Horn 3", "1543"], ["D Horn 4", "1544"]]),
+    Excerpt(id: 150, description: "Excerpt 2", measures: "Prelude to Act III, Beginning - 1 mm. after [3]", pictures: [["G Horn 1", "1545"], ["G Horn 2", "1546"], ["G Horn 3", "1547"], ["G Horn 4", "1548"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let wagnerSigfried = Composition(id: 47, composer: "Richard Wagner", composerLast: "Wagner", name: "Siegfried", date: "1871", era: "Late Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 151, description: "Excerpt 1", measures: "Act II Scene II, Long call", pictures: [["F Horn 1", "1549"]])
+], mutes: "", videos: [
+    ["F Horn 1", "1549"]
+])
+
+let weberFreischutz = Composition(id: 48, composer: "Carl Maria von Weber", composerLast: "Weber", name: "Der Freischütz", date: "1821", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 152, description: "Excerpt 1", measures: "Overture, mm. 10 - 25", pictures: [["F Horn 1", "1550"], ["F Horn 2", "1551"], ["C Horn 3", "1552"], ["C Horn 4", "1553"]])
+], mutes: "", videos: [
+    ["", ""]
+])
+
+let weberOberon = Composition(id: 49, composer: "Carl Maria von Weber", composerLast: "Weber", name: "Oberon", date: "1826", era: "Romantic", genre: "Opera", excerpts: [
+    Excerpt(id: 153, description: "Excerpt 1", measures: "Overture, Beginning - [A]", pictures: [["D Horn 1", "1554"]])
+], mutes: "", videos: [
+    ["", ""]
+])
 
 let pictures1 = [["C Horn 1", ""], ["C Horn 2", ""]]
 let pictures2 = [["F Horn 1", ""], ["F Horn 2", ""], ["F Horn 3", ""], ["F Horn 4", ""]]
 let flat = "♭"
 
 /*
- Wagner – Das Rheingold
- Wagner – Götterdämmerung
- Wagner – Lohengrin
- Wagner – Siegfried
- Weber – Der Freischütz
  Weber – Oberon
  */
 
@@ -523,10 +554,11 @@ let tchaikovsky = Composer(id: 19, name: "Pyotr Ilyich Tchaikovsky", ipa: "ˈpy�
 ])
 
 let wagner = Composer(id: 20, name: "Richard Wagner", ipa: "ˈʁɪçaʁt ˈvaːɡnɐ", image: 2020, country: "Germany", dates: "1813-1883", bio: "Wagner is one of the most well known composers of all time. His music frequently appears in television shows and movies. He was most well known in his era for his operas, which usually run about four hours. Wagner was unusual as an opera composer because he himself wrote the liberetto for the operas he composed. Wagner had his own opera house constructed, which still stands to this day.", excerpts: [
-    wagnerWalkure
+    wagnerWalkure, wagnerRheingold, wagnerGotterdammerung, wagnerLohengrin, wagnerSigfried
 ])
 
 let weber = Composer(id: 21, name: "Carl Maria von Weber", ipa: "kɑrl məˈriə fən ˈvābər", image: 2021, country: "Germany", dates: "1786-1826", bio: "Carl Maria von Weber was a German composer, conductor, pianist, guitarist, and music critic. He is widely regarded as one of the first significant composers of the romantic school. His contributions to the field of Opera greatly influenced the development of Romantische Oper in Germany, and he was a major influence to Marschner, Meyerbeer and Wagner.", excerpts: [
+    weberFreischutz, weberOberon
 ])
 
 /**
@@ -537,7 +569,7 @@ class HornContentModel: ObservableObject {
      An alphabetical list of all of the compositions in the app.
      */
     var excerpts: [Composition] = [
-        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel, tchaikovsky4, tchaikovsky5, wagnerWalkure
+        bachBrandenburgConcerto, bachMassB, beethovenFidelio, beethoven2, beethoven3, beethoven6, beethoven7, beethoven8, beethoven9, berliozRomeoEtJuliet, brahmsAcademic, brahmsPiano1, brahmsPiano2, brahms1, brahms2, brahms3, brahms4, brahmsVariations, bruckner4, bruckner7, dvorakCello, dvorak9, franckD, haydn31, lisztLesPreludes, mahler1, mahler3, mahler5, mahler9, mendelssohnMidsummer, mendelssohn3, mozart29, mozart40, rimskyKorsakovScheherazade, rossiniSemiramide, saintSaens3, schubert9, schumann3, straussDonJuan, straussDonQuixote, straussHeldenleben, straussSinfoniaDomestica, straussEulenspiegel, tchaikovsky4, tchaikovsky5, wagnerWalkure, wagnerRheingold, wagnerGotterdammerung, wagnerLohengrin, wagnerSigfried, weberFreischutz, weberOberon
     ]
     
     /**
