@@ -148,7 +148,12 @@ let beethoven7 = Composition(id: 6, composer: "Ludwig van Beethoven", composerLa
 let beethoven8 = Composition(id: 7, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 8", date: "1812", era: "Romantic", genre: "Symphony", excerpts: [
     Excerpt(id: 24, description: "Excerpt 1", measures: "Mov. III, mm. 45 - 78", pictures: [["F Horn 1", "1053"], ["F Horn 2", "1054"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "V6set4KUs4w"],
+    ["Daniel Barenboim, West-Eastern Divan Orchestra", "dV1zTM2P_LE"],
+    ["Herbert von Karajan, Philharmonia Orchestra", "C2Avpt9FKP0"],
+    ["Herbert von Karajan, Berlin Philharmonic (With Score)", "fa6DRoxpOwg"],
+    ["Leonard Bernstein, Wiener Philarmoniker", "GQ7-hbEWdw8"],
+    ["Zubin Mehta, Israel Philharmonic Orchestra", "FMEL6z9Qir8"],
 ])
 
 let beethoven9 = Composition(id: 8, composer: "Ludwig van Beethoven", composerLast: "Beethoven", name: "Symphony No. 9", date: "1824", era: "Romantic", genre: "Symphony", excerpts: [
@@ -195,7 +200,11 @@ let brahmsPiano1 = Composition(id: 11, composer: "Johannes Brahms", composerLast
     Excerpt(id: 33, description: "Excerpt 3", measures: "Mov. III, 19 mm. before [E] to [E]", pictures: [["D Horn 1", "1081"], ["D Horn 2", "1082"], ["B♭ Basso Horn 3", "1083"], ["B♭ Basso Horn 4", "1084"]]),
     Excerpt(id: 34, description: "Excerpt 4", measures: "Mov. III, [H] - 25 mm. after [H]", pictures: [["D Horn 1", "1085"], ["D Horn 2", "1086"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Bernard Haitink, Concertgebouw Orchestra", "VsgWF406ti4"],
+    ["Leonard Bernstein, Vienna Philharmonic", "1MJGC3OYE0M"],
+    ["Michael Gielen, Southwest German Radio Symphony Orchestra", "OOlc2PAiWUU"],
+    ["Riccardo Chailly, Gewandhausorchester (With Score)", "rDhBywJ5zCU"],
+    ["Valery Gergiev", "Yxn8E6v8akQ"],
 ])
 
 let brahmsPiano2 = Composition(id: 12, composer: "Johannes Brahms", composerLast: "Brahms", name: "Piano Concerto No. 2", date: "1881", era: "Romantic", genre: "Piano Concerto", excerpts: [
@@ -204,7 +213,11 @@ let brahmsPiano2 = Composition(id: 12, composer: "Johannes Brahms", composerLast
     Excerpt(id: 37, description: "Excerpt 3", measures: "Mov. I, [F] - 7 mm. before [G]", pictures: [["B♭ Basso Horn 1", "1092"], ["B♭ Basso Horn 2", "1093"], ["F Horn 3", "1094"], ["F Horn 4", "1095"]]),
     Excerpt(id: 38, description: "Excerpt 4", measures: "Mov. II, mm. 159 - 215", pictures: [["B♭ Basso Horn 1", "1096"], ["B♭ Basso Horn 2", "1097"], ["D Horn 3", "1098"], ["D Horn 4", "1099"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Bernard Haitink, Chamber Orchestra of Europe", "40NsFKuskH0"],
+    ["David Zinman, NHK Symphony Orchestra", "o6_lbrlehsg"],
+    ["Leonard Bernstein, Vienna Philharmonic", "y4YqWXmF9Dg"],
+    ["Leonard Bernstein, Vienna Philharmonic (With Score)", "tWoFaPwbzqE"],
+    ["Valery Gergiev, Munich Philharmonic", "BszBccYHuAk"]
 ])
 
 let brahms1 = Composition(id: 13, composer: "Johannes Brahms", composerLast: "Brahms", name: "Symphony No. 1", date: "1876", era: "Romantic", genre: "Symphony", excerpts: [
@@ -314,7 +327,12 @@ let dvorakCello = Composition(id: 20, composer: "Antonín Dvořák", composerLas
     Excerpt(id: 61, description: "Excerpt 3", measures: "Mov. I, [8] - [9]", pictures: [["E Horn 1", "1175"], ["E Horn 2", "1176"], ["D Horn 3", "1177"]]),
     Excerpt(id: 62, description: "Excerpt 4", measures: "Mov. II, [6] - 13 mm. after [6]", pictures: [["F Horn 1", "1178"], ["F Horn 2", "1179"], ["C Horn 3", "1180"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Daniel Barenboim, Chicago Symphony Orchestra", "llB7NaWLUc4"],
+    ["Daniel Barenboim, London Symphony Orchestra", "U_yxtaeFuEQ"],
+    ["Kurt Masur", "jcb4dAvpOIs"],
+    ["Paavo Järvi, Orchestre de Paris", "FVKb3DwPFA8"],
+    ["Stéphane Denève, Brussels Philharmonic", "oJZmRe8onBM"],
+    ["Vasily Petrenko, Israel Philharmonic", "1-YiERbdGsQ"],
 ])
 
 let dvorak9 = Composition(id: 21, composer: "Antonín Dvořák", composerLast: "Dvořák", name: "Symphony No. 9", date: "1893", era: "Romantic", genre: "Symphony", excerpts: [
@@ -352,14 +370,24 @@ let haydn31 = Composition(id: 23, composer: "Franz Joseph Haydn", composerLast: 
     Excerpt(id: 73, description: "Excerpt 4", measures: "Mov. III, Trio", pictures: [["D Horn 1", "1216"], ["D Horn 2", "1217"], ["D Horn 3", "1218"], ["D Horn 4", "1219"]]),
     Excerpt(id: 74, description: "Excerpt 5", measures: "Mov. IV, Variation IV", pictures: [["D Horn 1", "1220"], ["D Horn 2", "1221"], ["D Horn 3", "1222"], ["D Horn 4", "1223"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Antal Doráti, Philharmonia Hungarica (With Score)", "Ar4LVTO7rnQ"],
+    ["Charles Mackerras, Orchestra of St. Luke's", "2cs6akfXxHE"],
+    ["Christopher Hogwood, The Academy of Ancient Music", "H30PPIqVsSU"],
+    ["Neville Marriner", "WHTYyNIHJew"],
+    ["Robert W. Butts, The Baroque Orchestra of New Jersey", "7TdsVIl18Ts"],
+    ["Yoichiro Omaki, Bamberger Symphoniker", "rDJl5i8kjQI"],
 ])
 
 let lisztLesPreludes = Composition(id: 24, composer: "Franz Liszt", composerLast: "Liszt", name: "Les préludes", date: "1855", era: "Romantic", genre: "Symphonic Poem", excerpts: [
     Excerpt(id: 75, description: "Excerpt 1", measures: "mm. 55 - 62", pictures: [["E Horn 1", "1224"]]),
     Excerpt(id: 76, description: "Excerpt 2", measures: "mm. 69 - 86", pictures: [["E Horn 1", "1225"], ["E Horn 2", "1226"], ["E Horn 3", "1227"], ["E Horn 4", "1228"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Daniel Barenboim, Berlin Philharmoniker", "jb2bkVQwtBs"],
+    ["Daniel Barenboim, West Eastern Divan Orchestra", "e3zbIG0MN4o"],
+    ["Mark Gorenstein, Russian State Symphony Orchestra (With Score)", "IC20YIllemg"],
+    ["Michel Plasson, Dresdner Philharmonie", "zDEem_aEttE"],
+    ["Michel Plasson, Dresdner Philharmonie (With Score)", "o5r7AhGi4yE"],
+    ["Wojciech Pławner, Symphony Orchestra of the Karol Szymanowski State Music School", "psCI_CQ9jaU"],
 ])
 
 let mahler1 = Composition(id: 25, composer: "Gustav Mahler", composerLast: "Mahler", name: "Symphony No. 1", date: "1888", era: "Late Romantic", genre: "Symphony", excerpts: [
@@ -462,13 +490,23 @@ let mendelssohn3 = Composition(id: 30, composer: "Felix Mendelssohn", composerLa
 let mozart29 = Composition(id: 31, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 29", date: "1774", era: "Classical", genre: "Symphony", excerpts: [
     Excerpt(id: 103, description: "Excerpt 1", measures: "Mov. IV, mm. 155 - End", pictures: [["A Horn 1", "1351"], ["A Horn 2", "1352"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Christoph Koncz, Ensemble Philmusica Tokyo", "bPP7GAMDUIo"],
+    ["Claudio Abbado, Berliner Philharmoniker", "9U3tja1CmCw"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "3nGr4QAXKkM"],
+    ["Jelena Ristic, Concertgebouw Chamber Orchestra", "X3j5f9ggN-4"],
+    ["John Eliot Gardiner", "BAn66xqaj-c"],
+    ["Trevor Pinnock, The English Concert", "PjvYa9qPY-w"],
 ])
 
 let mozart40 = Composition(id: 32, composer: "Wolfgang Amadeus Mozart", composerLast: "Mozart", name: "Symphony No. 40", date: "1788", era: "Classical", genre: "Symphony", excerpts: [
     Excerpt(id: 104, description: "Excerpt 1", measures: "Mov. III, Trio", pictures: [["G Horn 1", "1353"], ["G Horn 2", "1354"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Andrés Orozco-Estrada, Frankfurt Radio Symphony", "QyQ-POuTNn8"],
+    ["Anzor Kinkladze, Georgian SIMI Festival Orchestra", "-hJf4ZffkoI"],
+    ["Czech National Symphony Orchestra (With Score)", "BfcXoB9y4rc"],
+    ["Julien Salemkour Staatskapelle Berlin", "wqkXqpQMk2k"],
+    ["Leonard Bernstein, Boston Symphony Orchestra", "p8bZ7vm4_6M"],
+    ["Sir Simon Rattle, Berliner Philharmoniker", "0sGqkMU-mGQ"],
 ])
 
 let rimskyKorsakovScheherazade = Composition(id: 33, composer: "Nikolay Rimsky-Korsakov", composerLast: "Rimsky-Korsakov", name: "Scheherazade", date: "1888", era: "Romantic", genre: "Suite", excerpts: [
@@ -487,7 +525,11 @@ let rimskyKorsakovScheherazade = Composition(id: 33, composer: "Nikolay Rimsky-K
 let rossiniSemiramide = Composition(id: 34, composer: "Gioacchino Rossini", composerLast: "Rossini", name: "Semiramide", date: "1823", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 108, description: "Excerpt 1", measures: "Overture, [B] - [C]", pictures: [["D Horn 1", "1367"], ["D Horn 2", "1368"], ["D Horn 3", "1369"], ["D Horn 4", "1370"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Claudio Abbado, London Symphony Orchestra", "5PXmvKZFCLk"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "b72Zq0nduk8"],
+    ["Marco Armiliato, Berlin Philharmonic", "bTauHYkul3c"],
+    ["Michael Halasz, Zagreb Festival Orchestra", "OGnbT9ulCCo"],
+    ["Riccardo Muti, Wiener Philharmoniker", "EwSwN1rl5wU"],
 ])
 
 let saintSaens3 = Composition(id: 35, composer: "Camille Saint-Saëns", composerLast: "Saint-Saëns", name: "Symphony No. 3", date: "1886", era: "Romantic", genre: "Symphony", excerpts: [
@@ -679,19 +721,33 @@ let wagnerLohengrin = Composition(id: 46, composer: "Richard Wagner", composerLa
 let wagnerSigfried = Composition(id: 47, composer: "Richard Wagner", composerLast: "Wagner", name: "Siegfried", date: "1871", era: "Late Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 151, description: "Excerpt 1", measures: "Act II Scene II, Long call", pictures: [["F Horn 1", "1549"]])
 ], mutes: "", videos: [
-    ["F Horn 1", "1549"]
+    ["Adam Fischer, Vienna State Opera", "xlCtT5zSs2M"],
+    ["Daniel Barenboim, Orchester der Bayreuther Festspiele", "KtLQS--VQF8"],
+    ["Georg Solti, Vienna Philharmonic Orchestra (With Score)", "j5pATBWOsLc"],
+    ["Marek Janowski, Bayreuth Festival Orchestra", "uxVPG5MkS4M"],
+    ["Pierre Boulez, Bayreuther Festspiele", "sPHlpPwoUnA"],
+    ["Zubin Mehta, Valencian Community Orchestra", "BaF8zdfS0q8"],
 ])
 
 let weberFreischutz = Composition(id: 48, composer: "Carl Maria von Weber", composerLast: "Weber", name: "Der Freischütz", date: "1821", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 152, description: "Excerpt 1", measures: "Overture, mm. 10 - 25", pictures: [["F Horn 1", "1550"], ["F Horn 2", "1551"], ["C Horn 3", "1552"], ["C Horn 4", "1553"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Carlos Kleiber, Staatskapelle Dresden", "pIhKnzgFsiU"],
+    ["Carlos Kleiber, Südfunk-Sinfonieorchester", "9Umd7w5cECE"],
+    ["Christoph Eschenbach, SWR Symphonieorchester", "QMSteKA1a_s"],
+    ["Myung-Whun Chung, Teatro alla Scala", "s_o-hIEia5I"],
+    ["Ondřej Vrabec, Czech Philharmonic Orchestra", "V9iaX9wWni4"],
 ])
 
 let weberOberon = Composition(id: 49, composer: "Carl Maria von Weber", composerLast: "Weber", name: "Oberon", date: "1826", era: "Romantic", genre: "Opera", excerpts: [
     Excerpt(id: 153, description: "Excerpt 1", measures: "Overture, Beginning - [A]", pictures: [["D Horn 1", "1554"]])
 ], mutes: "", videos: [
-    ["", ""]
+    ["Antoni Wit, New Zeland Symphony Orchestra", "aCyJjRvIeJA"],
+    ["Bernard Haitink, Royal Opera House", "y2Eg7ra6fbQ"],
+    ["Daniel Barenboim, Israel Philharmonic Orchestra", "LI4slVTrQh8"],
+    ["Farkhad Khudyev, Frankfurt Radio Symphony Orchestra", "JLV9pPPaEiE"],
+    ["Herbert von Karajan, Berliner Philharmoniker", "-oR7FZxEk0k"],
+    ["Marek Janowski, Deutsches Symphonie-Orchester Berlin", "l2w896Ftc6U"],
 ])
 
 
